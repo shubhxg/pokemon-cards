@@ -13,7 +13,7 @@ body {
 
 .bg {
   &-brown {
-    background-color: $ground;     
+    background-color: $ground;
   }
 
   &-yellow {
@@ -55,22 +55,24 @@ body {
   }
 }
 
-.ty-r:hover {
-  transition: transform 0.1s ease-out;
-  transform: perspective(100em) rotateX(-18deg) rotateY(15deg);
-}
+.ty {
+  &-r:hover {
+    transition: transform 0.1s ease-out;
+    transform: perspective(100em) rotateX(-18deg) rotateY(15deg);
+  }
 
-.ty-r2:hover {
-  transition: transform 0.1s ease-in-out;
-  transform: perspective(100em) rotateX(10deg) rotateY(-15deg);
-}
+  &-r2:hover {
+    transition: transform 0.1s ease-in-out;
+    transform: perspective(100em) rotateX(10deg) rotateY(-15deg);
+  }
 
-.ty-l:hover {
-  transition: transform 0.1s ease-in-out;
-  transform: perspective(100em) rotateX(-10deg) rotateY(-15deg);
-}
+  &-l:hover {
+    transition: transform 0.1s ease-in-out;
+    transform: perspective(100em) rotateX(-10deg) rotateY(-15deg);
+  }
 
-.ty-l2:hover {
-  transition: transform 0.1s ease-in-out;
-  transform: perspective(100em) rotateX(-10deg) rotateY(10deg);
+  &-l2:hover {
+    transition: transform 0.1s ease-in-out;
+    transform: perspective(100em) rotateX(-10deg) rotateY(10deg);
+  }
 }
